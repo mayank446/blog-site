@@ -1,0 +1,40 @@
+.vlog{
+    /* background-image: url("https://curlytales.com/wp-content/uploads/2020/11/EnK8hgfUcAAopCz-1-1170x614.jpg"); */
+    background-image: url('');
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 108, 91);
+    height: auto;
+    width: 450px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.cont{
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+.bottom_cont{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+.read{
+    /* background-color: beige; */
+    width: 30%;
+}
+.read_btn{
+    border: none;
+    border-radius: 5px;
+    width: 170px;
+    padding: 10px;
+}
+.author{
+    /* display: flex;
+    justify-self: right; */
+}
