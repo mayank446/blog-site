@@ -1,7 +1,7 @@
 import React from 'react'
 import './single_page.css'
 
-import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { Routes, Route, Outlet, Link, NavLink } from "react-router-dom";
 
 import Home_nav from '../components/Home_nav.jsx'
 
@@ -12,7 +12,7 @@ class SinglePage extends React.Component {
         <Home_nav/>
         <div className='sp_wrap'>
             <div className='sp_back_btn'>
-                <Link to="/" className='back_link'>Back</Link>
+                <NavLink to="/" className='back_link'>Back</NavLink>
             </div>
             <h2>Lorem ipsum dolor sit</h2>
             <img src='https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg' className='sp_img'/>
